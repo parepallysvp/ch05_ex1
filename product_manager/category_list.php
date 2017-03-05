@@ -2,7 +2,6 @@
 <main>
 
     <h1>Category List</h1>
-    <link rel="stylesheet" type="text/css" href="../main.css">
     <table>
         <tr>
             <th>Name</th>
@@ -11,15 +10,16 @@
 	<?php foreach ($categories as $category) { ?>
 	<tr>
 		<td><?php echo $category['categoryName']; ?></td>
-		<td><input type="submit" value="delete"
+		<td><input type="submit" value="delete">
 	</tr>
 <?php } ?>
 <!-- add category rows here -->
     </table>
 
     <h2>Add Category</h2>
-	<form>
-	<p><label>Name :</label><input type="text" name="category_name"> &nbsp <input type="submit" value="Add"></p>
+	<form  method="post">     
+	<input type="hidden" name="action" id="add_category">
+	<p><label>Name : </label><input type="text" name="category_name"> <input type="submit" value="Add"></p>
 	</form>
 
 <!-- add code for form here -->
