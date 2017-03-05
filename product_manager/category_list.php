@@ -10,7 +10,7 @@
 	<?php foreach ($categories as $category) { ?>
 	<tr>
 		<td><?php echo $category['categoryName']; ?></td>
-		<td><input type="submit" value="delete">
+		<td><input type="submit" value="delete"></td>
 	</tr>
 <?php } ?>
 <!-- add category rows here -->
