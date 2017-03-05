@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<header>
 <?php include '../view/header.php'; ?>
+</header>
+<body>
+<link rel="stylesheet" type="text/css" href="../main.css">
 <main>
     <aside>
         <h1>Categories</h1>
@@ -43,4 +48,7 @@
         </div>
     </section>
 </main>
+</body>
+<footer>
 <?php include '../view/footer.php'; ?>
+</footer>

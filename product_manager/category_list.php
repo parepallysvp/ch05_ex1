@@ -1,4 +1,4 @@
-<?php include '../view/header.php'; ?>
+<?php include '../view/header.php';?>
 <main>
 
     <h1>Category List</h1>
@@ -7,7 +7,8 @@
             <th>Name</th>
             <th>&nbsp;</th>
         </tr>        
-        <!-- add category rows here -->
+      
+<!-- add category rows here -->
     </table>
 
     <h2>Add Category</h2>
