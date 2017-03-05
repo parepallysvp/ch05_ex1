@@ -18,7 +18,11 @@
     </table>
 
     <h2>Add Category</h2>
-    <!-- add code for form here -->
+	<form>
+	<p><label>Name :</label><input type="text" name="category_name"> &nbsp <input type="submit" value="Add"></p>
+	</form>
+
+<!-- add code for form here -->
 
     <p><a href="index.php?action=list_products">List Products</a></p>
 
