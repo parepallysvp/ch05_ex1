@@ -1,10 +1,11 @@
 <?php include '../view/header.php'; ?>
 <main>
     <h1>Product List</h1>
-
+    
     <aside>
         <!-- display a list of categories -->
         <h2>Categories</h2>
+        <link rel="stylesheet" type="text/css" href="../main.css">
         <nav>
         <ul>
         <?php foreach ($categories as $category) : ?>
