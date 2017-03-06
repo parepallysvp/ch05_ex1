@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<header>
 <?php include '../view/header.php'; ?>
-</header>
-<body>
-<link rel="stylesheet" type="text/css" href="../main.css">
 <main>
     <aside>
         <h1>Categories</h1>
-        <nav>
+    <aside>
+	<nav>
             <ul class="nav">
                 <!-- display links for all categories -->
                 <?php foreach($categories as $category) : ?>
@@ -23,6 +19,7 @@
     </aside>
     <section>
         <h1><?php echo $name; ?></h1>
+    <aside>
         <div id="left_column">
             <p>
                 <img src="<?php echo $image_filename; ?>"
@@ -48,7 +45,4 @@
         </div>
     </section>
 </main>
-</body>
-<footer>
 <?php include '../view/footer.php'; ?>
-</footer>
